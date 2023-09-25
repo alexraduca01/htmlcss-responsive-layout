@@ -30,6 +30,9 @@ body {
 .font-bold {
     font-weight: bold;
 }
+.bg-light {
+    background-color: var(--color-light-color);
+}
 
 /* utility */
 
@@ -49,7 +52,7 @@ ul {
 }
 .wrapper {
     margin: 0 auto;
-    width: 500px;
+    max-width: 500px;
 }
 .odd {
     padding: 40px 20px;
@@ -78,6 +81,18 @@ h4 {
 .icon-size {
     font-size: 100px;
 }
+.even {
+    background-color: var(--color-primary-color);
+    padding: 40px 20px;
+}
+h3 {
+    font-size: 1.8em;
+}
+.general-card {
+    width: 100%;
+    border-radius: 60px;
+    padding: 10px;
+}
 
 /* header */
 
@@ -92,6 +107,7 @@ nav {
 }
 .fa-bars {
     font-size: 1.5em;
+    cursor: pointer;
 }
 
 /* main */
@@ -108,6 +124,16 @@ nav {
 .card-img > img {
     position: relative;
     bottom: -20px;
+}
+
+/* planning section */
+
+.arrow-icon {
+    border-radius: 50%;
+    background-color: var(--color-primary-color);
+    font-size: 1.2em;
+    padding: 20px;
+    cursor: pointer;
 }
 
 /* flex */
