@@ -204,6 +204,28 @@ nav {
     padding: 20px;
 }
 
+/* about us section */
+
+.about-us-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.about-us-image > i {
+    color: var(--color-primary-color);
+    font-size: 4em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fa-linkedin {
+    transform: translateX(-20px);
+}
+
 /* flex */
 
 .flex-space-between {
