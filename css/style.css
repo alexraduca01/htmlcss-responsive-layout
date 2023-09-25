@@ -146,8 +146,14 @@ h2 {
 /* header */
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: var(--color-secondary-color);
     height: 70px;
+    z-index: 5000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 nav {
     margin: 0 auto;
@@ -160,6 +166,10 @@ nav {
 }
 
 /* main */
+
+main {
+    margin-top: 70px;
+}
 
 /* demo section */
 
