@@ -18,7 +18,46 @@ body {
 
 /* utility */
 
+img {
+    display: block;
+    width: 100%;
+}
+ul {
+    display: none;
+    list-style: none;
+}
+.no-txt-decoration {
+    text-decoration: none;
+}
+.horizontal-li {
+    display: inline-block;
+}
 
+/* header */
+
+header {
+    background-color: var(--color-secondary-color);
+    height: 70px;
+}
+nav {
+    margin: 0 auto;
+    height: 100%;
+    width: 500px;
+}
+.fa-bars {
+    font-size: 1.5em;
+}
+
+/* flex */
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
 
 /* media query */
 
