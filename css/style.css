@@ -70,6 +70,10 @@ h4 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .gen-padding {
     padding: 20px;
 }
@@ -83,7 +87,6 @@ h4 {
     background-color: var(--color-secondary-color);
     border-radius: 25px;
     padding: 10px 10px;
-    margin: 30px 0;
     font-size: 1.2em;
     width: 200px;
 }
@@ -106,6 +109,15 @@ h3 {
     text-transform: uppercase;
 }
 .font-bigger {
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 2.4em;
+}
+.btn-purple {
+    background-color: var(--color-primary-color);
+    border-radius: 25px;
+    padding: 10px 50px;
     font-size: 1.2em;
 }
 
@@ -181,6 +193,14 @@ nav {
     border-radius: 50%;
 }
 .testimonial-content {
+    padding: 20px;
+}
+
+/* benefits section */
+
+.box {
+    border-radius: 20px;
+    background-color: var(--color-light-color);
     padding: 20px;
 }
 
