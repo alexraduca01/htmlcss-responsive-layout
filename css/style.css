@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-secondary-color: #0084fd;
+    --color-dark-color: #333333;
+    --color-light-color: #ffffff;
+    --color-primary-color: #9792e4;
+    --color-bg-card: #b5ddff;
+    --color-contrast-color: #fcc060;
+    --color-text: #424242;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* utility */
+
+
+
+/* media query */
+
+@media screen and (min-width: 576px) {
+    
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 992px) {
+    
+}
+@media screen and (min-width: 1200px) {
+    
+}
