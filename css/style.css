@@ -146,6 +146,12 @@ h2 {
     padding: 20px 80px;
     font-size: 1.2em;
 }
+.li-button {
+    background-color: var(--color-light-color);
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: black;
+}
 
 /* header */
 
@@ -363,5 +369,51 @@ main {
     
 }
 @media screen and (min-width: 1200px) {
-    
+    nav {
+        max-width: 1140px;
+    }
+    .fa-bars {
+        display: none;
+    }
+    ul {
+        display: block;
+    }
+    li {
+        padding: 0 10px;
+    }
+    .wrapper {
+        max-width: 1140px;
+    }
+    .bigger-card {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-img {
+        position: relative;
+        bottom: -25px;
+    }
+    .planning-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .planning-wrapper > div {
+        width: calc(100% / 2 - 20px);
+    }
+    .planning-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .testimonial-card {
+        padding: 50px 0;
+    }
+    .box {
+        width: calc(100% / 3 - 20px);
+        padding: 30px;
+    }
+    .small-wrapper {
+        max-width: 700px;
+        text-align: center;
+    }
 }
